@@ -19,7 +19,7 @@ const config = {
             domain: '',
             jekyll: false,
             paths: {
-                base: prod ? '/tic-tac-wow' : ''
+                base: prod ? REPO_NAME : ''
             }
         })
     }
