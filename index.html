@@ -1,79 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="./favicon.png" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+        />
+        
+		<link rel="modulepreload" href="./_app/immutable/entry/start.df0950ab.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.8b26d7c5.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.abb29f64.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.4d21fe7b.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.67961d07.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.10560d47.js">
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.png" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
-    <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="./_app/immutable/start-a9bb6589.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-2ca793c0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-76788394.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-8c5b73a0.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-ac1615cd.js">
-</head>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">  <header data-svelte-h="svelte-xqll0g"><h1>Workshop</h1> <nav><a href="/">Home</a> |</nav></header> <h2 data-svelte-h="svelte-1p75igt">Home</h2> <p data-svelte-h="svelte-1qh5mqi">Here be lardons</p> 
+			
+			<script>
+				{
+					__sveltekit_1un5wf1 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
-<body data-sveltekit-preload-data="hover">
-    <div style="display: contents">
+					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
 
-<header><h1>Workshop</h1>
-
-    <nav><a href="/">Home</a> |
-    </nav></header>
-
-<h2>Home</h2>
-
-<p>Here be lardons</p>
-
-
-		<script type="module" data-sveltekit-hydrate="1bedner">
-			import { start } from "./_app/immutable/start-a9bb6589.js";
-
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1bedner"]').parentNode,
-				version: "1699307825229",
-				hydrate: {
-					node_ids: [0, 2],
-					data: [null,null],
-					form: null
+					Promise.all([
+						import("./_app/immutable/entry/start.df0950ab.js"),
+						import("./_app/immutable/entry/app.abb29f64.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
-</body>
+			</script>
+		</div>
+    </body>
 
-<!-- Override newcss -->
-<style>
-    body {
-        max-width: 900px;
-    }
+    <!-- Override newcss -->
+    <style>
+        body {
+            max-width: 900px;
+        }
 
-    :root {
-        --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        --nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
-        --is-light-theme: 1;
+        :root {
+            --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji',
+                'Segoe UI Emoji', 'Segoe UI Symbol';
+            --nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New',
+                Courier, monospace;
+            --is-light-theme: 1;
 
-
-        /* Dark theme */
-        --nc-tx-1: #FFFFFF;
-        --nc-tx-2: #B7B7B7;
-        --nc-tx-3: #8a8d87;
-        --nc-bg-1: #1E272C;
-        --nc-bg-2: #161d21;
-        --nc-bg-3: #263238;
-        --nc-lk-1: #5E92FF;
-        --nc-lk-2: #99b2e8;
-        --nc-lk-tx: #2E3C43;
-        --nc-ac-1: #C3E88D;
-        --nc-ac-tx: #263238;
-    }
-</style>
-
+            /* Dark theme */
+            --nc-tx-1: #ffffff;
+            --nc-tx-2: #b7b7b7;
+            --nc-tx-3: #8a8d87;
+            --nc-bg-1: #1e272c;
+            --nc-bg-2: #161d21;
+            --nc-bg-3: #263238;
+            --nc-lk-1: #5e92ff;
+            --nc-lk-2: #99b2e8;
+            --nc-lk-tx: #2e3c43;
+            --nc-ac-1: #c3e88d;
+            --nc-ac-tx: #263238;
+        }
+    </style>
 </html>
