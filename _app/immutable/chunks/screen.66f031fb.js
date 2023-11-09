@@ -1,4 +1,4 @@
-const n=`[tags]: # '["screen"]'
+const n=`[tags]: # '["bash", "screen"]'
 [title]: # 'Screen'
 
 ### Basic usage

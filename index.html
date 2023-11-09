@@ -4,20 +4,16 @@
         <meta charset="utf-8" />
         <link rel="icon" href="./favicon.png" />
         <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-        />
         
-		<link rel="modulepreload" href="./_app/immutable/entry/start.93d9ba53.js">
+		<link href="./_app/immutable/assets/0.a676e1a3.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.9c072225.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e86343e0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.21c0d507.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.0155a0b4.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.17f6cf61.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.3236e0f3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.f0bb03aa.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.08b26b55.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.346943b0.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.e2351ede.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.b612cba1.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/2.6f22982f.js">
     </head>
 
@@ -27,7 +23,7 @@
 			
 			<script>
 				{
-					__sveltekit_1pjfhu = {
+					__sveltekit_dl1o35 = {
 						assets: "/workshop",
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
@@ -38,8 +34,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.93d9ba53.js"),
-						import("./_app/immutable/entry/app.17f6cf61.js")
+						import("./_app/immutable/entry/start.9c072225.js"),
+						import("./_app/immutable/entry/app.08b26b55.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
@@ -52,36 +48,6 @@
 			</script>
 		</div>
     </body>
-
-    <!-- Override newcss -->
-    <style>
-        body {
-            max-width: 900px;
-        }
-
-        :root {
-            --nc-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji',
-                'Segoe UI Emoji', 'Segoe UI Symbol';
-            --nc-font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New',
-                Courier, monospace;
-            --is-light-theme: 1;
-
-            /* Dark theme */
-            --nc-tx-1: #ffffff;
-            --nc-tx-2: #b7b7b7;
-            --nc-tx-3: #8a8d87;
-            --nc-bg-1: #1e272c;
-            --nc-bg-2: #161d21;
-            --nc-bg-3: #263238;
-            --nc-lk-1: #5e92ff;
-            --nc-lk-2: #99b2e8;
-            --nc-lk-tx: #2e3c43;
-            --nc-ac-1: #c3e88d;
-            --nc-ac-tx: #263238;
-        }
-    </style>
-
 
     <!-- override highlight.js style -->
     <style>
