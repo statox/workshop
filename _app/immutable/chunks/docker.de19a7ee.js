@@ -1,17 +1,19 @@
-const e=`[tags]: # '["docker"]'
+const n=`[tags]: # '["docker"]'
 [title]: # 'Docker cheatsheet'
 
 [\`docker exec\` reference](https://docs.docker.com/engine/reference/commandline/exec/)
 
 Run interactive shell on container
- \`\`\`bash
- docker exec -it <container_id> bash
- \`\`\`
+
+\`\`\`bash
+docker exec -it <container_id> bash
+\`\`\`
 
 Run command on container
- \`\`\`bash
+
+\`\`\`bash
 docker exec -d <container_id> touch /tmp/test
- \`\`\`
+\`\`\`
 
 Set an environment variable in the current bash session.
 
@@ -24,4 +26,4 @@ Select working directory for the command to execute into
 \`\`\`bash
  docker exec -it -w /root <container_id> pwd
 \`\`\`
-`;export{e as default};
+`;export{n as default};

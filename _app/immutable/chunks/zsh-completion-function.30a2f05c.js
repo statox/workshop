@@ -32,7 +32,7 @@ _myCoolFunction() {
 }
 \`\`\`
 
-Finally *in \`~/.zshrc\`* we can register \`_myCoolFunction\` as the completion function of \`myCoolFunction\`:
+Finally _in \`~/.zshrc\`_ we can register \`_myCoolFunction\` as the completion function of \`myCoolFunction\`:
 
 \`\`\`bash
 compdef _myCoolFunction myCoolFunction
@@ -40,7 +40,7 @@ compdef _myCoolFunction myCoolFunction
 
 Once everything is ready in a new shell typing \`mcf <TAB>\` should yield the 3 completions options.
 
-If things don't work one can check the completion function for a particular function *(It does not work with the alias)* with:
+If things don't work one can check the completion function for a particular function _(It does not work with the alias)_ with:
 
 \`\`\`bash
 echo $_comps[myCoolFunction]

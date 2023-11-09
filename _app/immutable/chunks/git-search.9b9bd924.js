@@ -3,9 +3,13 @@ const n=`[tags]: # '["git", "commit", "search"]'
 
 ### Find commits which change the number of occurences of a string
 
-    git log -SsearchedString
+\`\`\`bash
+git log -SsearchedString
+\`\`\`
 
 ### Find commits with a commit message including a string
 
-    git log --grep=searchedString
+\`\`\`bash
+git log --grep=searchedString
+\`\`\`
 `;export{n as default};

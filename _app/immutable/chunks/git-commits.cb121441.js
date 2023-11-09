@@ -12,11 +12,15 @@ _Reminder on zsh escape \`^\` in \`HEAD^\` with \`HEAD\\^\`_
 
 Remove the last commit from history but keep the working tree
 
-    git reset HEAD^
+\`\`\`bash
+git reset HEAD^
+\`\`\`
 
 Remove the last commit of the history completely **and discard changes**
 
-    git reset --hard HEAD^ # THIS DISCARDS CHANGES
+\`\`\`bash
+git reset --hard HEAD^ # THIS DISCARDS CHANGES
+\`\`\`
 
 ### Sign an older commit in your branch
 
@@ -25,7 +29,9 @@ after each commit
 
 _(Check if \`-n\` is useful I can't find it in the man)_
 
-    git rebase --exec 'git commit --amend --no-edit -n -S' -i my-branch
+\`\`\`bash
+git rebase --exec 'git commit --amend --no-edit -n -S' -i my-branch
+\`\`\`
 
 ### Change the date of a commit
 
@@ -37,7 +43,7 @@ GIT_COMMITTER_DATE="Wed, 28 Jul 2021 08:12:19 +0200" GIT_AUTHOR_DATE="Wed, 28 Ju
 
 Date formats
 
-\`\`\`
+\`\`\`plaintext
 Git internal format = <unix timestamp> <time zone offset>, e.g.  1112926393 +0200
                     <unix timestamp> is the number of seconds since the UNIX epoch.
                     <time zone offset> is a positive or negative offset from UTC. (E.g CEST is +0200)

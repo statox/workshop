@@ -2,6 +2,7 @@ const n=`[tags]: # '["bash", "array"]'
 [title]: # 'Bash arrays'
 
 ### Initiate an array
+
 \`\`\`bash
 myArray=( element_1 element_2 element_n )
 myArray2=(
@@ -9,7 +10,7 @@ myArray2=(
     element_2
     element_n
 )
- \`\`\`
+\`\`\`
 
 ### Access item by index
 
