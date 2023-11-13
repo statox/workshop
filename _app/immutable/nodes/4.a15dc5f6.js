@@ -1,11 +1,11 @@
-import{s,z as a}from"../chunks/scheduler.1aa2d3cf.js";import{S as c,i as m,b as i,d as u,m as l,a as f,t as p,e as d}from"../chunks/index.61ab503e.js";import{M as g}from"../chunks/Main.5ae5a1d3.js";const $=`## Noisy stuff
+import{s,z as a}from"../chunks/scheduler.1aa2d3cf.js";import{S as c,i as m,b as i,d as u,m as l,a as f,t as p,e as d}from"../chunks/index.61ab503e.js";import{M as g}from"../chunks/Main.ef044e0b.js";const $=`## Noisy stuff
 
 When I'm coding I listen to music and when I'm not coding I try to play some music. In these pages I try to keep useful or interesting resources I have gathered from my researches.
 
-### [Chords]({baseUrl}/chords/)
+### [Chords]({baseUrl}/chords)
 
 A list of song chords I took from the internet or made by myself and like to play.
-[Chords page]({baseUrl}/chords/)
+[Chords page]({baseUrl}/chords)
 
 ### [Production](https://soundcloud.com/statox/tracks)
 
