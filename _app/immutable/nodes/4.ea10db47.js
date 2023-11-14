@@ -1,4 +1,4 @@
-import{s,z as a}from"../chunks/scheduler.9f1d5949.js";import{S as c,i as m,b as i,d as u,m as l,a as f,t as p,e as d}from"../chunks/index.385c8399.js";import{M as g}from"../chunks/Main.dda910ac.js";const $=`## Noisy stuff
+import{s,z as a}from"../chunks/scheduler.9f1d5949.js";import{S as c,i as m,b as i,d as u,m as l,a as f,t as p,e as d}from"../chunks/index.385c8399.js";import{M as g}from"../chunks/Main.ac050e16.js";const $=`## Noisy stuff
 
 When I'm coding I listen to music and when I'm not coding I try to play some music. In these pages I try to keep useful or interesting resources I have gathered from my researches.
 
