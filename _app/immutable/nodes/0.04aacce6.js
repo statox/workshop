@@ -1,4 +1,4 @@
-import{s as u,r as m,f as p,a as h,g as d,u as g,c as $,i as f,v,w as b,x as y,d as c}from"../chunks/scheduler.7d413609.js";import{S,i as j,a as k,t as H}from"../chunks/index.47dcfb24.js";import{b as i}from"../chunks/paths.a8236e5c.js";/* empty css                          */const M=!0,q=Object.freeze(Object.defineProperty({__proto__:null,prerender:M},Symbol.toStringTag,{value:"Module"}));function w(o){let s,_=`<h1>Workshop</h1> <nav><a href="${i}/">Home</a> |
+import{s as u,r as m,f as p,a as h,g as d,u as g,c as $,i as f,v,w as b,x as y,d as c}from"../chunks/scheduler.7d413609.js";import{S,i as j,a as k,t as H}from"../chunks/index.47dcfb24.js";import{b as i}from"../chunks/paths.7142cdd8.js";/* empty css                          */const M=!0,q=Object.freeze(Object.defineProperty({__proto__:null,prerender:M},Symbol.toStringTag,{value:"Module"}));function w(o){let s,_=`<h1>Workshop</h1> <nav><a href="${i}/">Home</a> |
         <a href="${i}/notes">Notes</a> |
         <a href="${i}/songbook">Song book</a> |
         <a href="${i}/scales">Scales</a> |
