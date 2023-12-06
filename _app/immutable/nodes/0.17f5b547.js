@@ -1,0 +1,6 @@
+import{s as u,r as p,f as h,a as m,g as d,u as $,c as g,i as f,v,w as b,x as S,d as c}from"../chunks/scheduler.340eebe2.js";import{S as y,i as T,a as j,t as k}from"../chunks/index.ff53592b.js";import{b as i}from"../chunks/paths.09f4d554.js";/* empty css                          */const w=!0,W=Object.freeze(Object.defineProperty({__proto__:null,prerender:w},Symbol.toStringTag,{value:"Module"}));function H(o){let s,_=`<h1>Workshop</h1> <nav><a href="${i}/">Home</a> |
+        <a href="${i}/notes">Notes</a> |
+        <a href="${i}/songbook">Song book</a> |
+        <a href="${i}/scales">Scales</a> |
+        <a href="${i}/chordwheel">Chord Wheel</a> |
+        <a href="${i}/taptempo">Tap Tempo</a> |</nav>`,r,a;const n=o[1].default,t=p(n,o,o[0],null);return{c(){s=h("header"),s.innerHTML=_,r=m(),t&&t.c()},l(e){s=d(e,"HEADER",{"data-svelte-h":!0}),$(s)!=="svelte-1rxpop6"&&(s.innerHTML=_),r=g(e),t&&t.l(e)},m(e,l){f(e,s,l),f(e,r,l),t&&t.m(e,l),a=!0},p(e,[l]){t&&t.p&&(!a||l&1)&&v(t,n,e,e[0],a?S(n,e[0],l,null):b(e[0]),null)},i(e){a||(j(t,e),a=!0)},o(e){k(t,e),a=!1},d(e){e&&(c(s),c(r)),t&&t.d(e)}}}function C(o,s,_){let{$$slots:r={},$$scope:a}=s;return o.$$set=n=>{"$$scope"in n&&_(0,a=n.$$scope)},[a,r]}class q extends y{constructor(s){super(),T(this,s,C,H,u,{})}}export{q as component,W as universal};
