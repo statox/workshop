@@ -5,8 +5,6 @@
         <link rel="icon" href="/workshop/favicon.png" />
         <meta name="viewport" content="width=device-width" />
         
-		<link href="/workshop/_app/immutable/assets/0.bq-OvCYs.css" rel="stylesheet">
-		<link href="/workshop/_app/immutable/assets/new_theme.bd4xFU-c.css" rel="stylesheet">
 		<link rel="modulepreload" href="/workshop/_app/immutable/entry/start.eGrCKU8s.js">
 		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/scheduler.H7lw1MZO.js">
 		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/singletons.z-Lhuv84.js">
@@ -15,23 +13,10 @@
 		<link rel="modulepreload" href="/workshop/_app/immutable/entry/app.RKnrtHb_.js">
 		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/preload-helper.v91p5s3v.js">
 		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/index.bhYHpPrV.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/nodes/0.Fqz1Dfm5.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/await_block.9baw6Kh7.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/each.AWKwI39M.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/spread.rEx3vLA9.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/chunks/store.6LFyCuMl.js">
-		<link rel="modulepreload" href="/workshop/_app/immutable/nodes/2.cR_8Nfdk.js">
     </head>
 
     <body data-sveltekit-preload-data="hover">
-        <div style="display: contents">  <header data-svelte-h="svelte-1cbplrn"><h1>Workshop</h1> <nav><a href="/workshop/">Home</a> |
-        <a href="/workshop/notes">Notes</a> |
-        <a href="/workshop/songbook">Song book</a> |
-        <a href="/workshop/scales">Scales</a> |
-        <a href="/workshop/chordwheel">Chord Wheel</a> |
-        <a href="/workshop/taptempo">Tap Tempo</a> |
-        <a href="/workshop/metronome">Metronome</a> |</nav></header>     <h2 data-svelte-h="svelte-1p75igt">Home</h2> <p data-svelte-h="svelte-1qh5mqi">Here be lardons</p> 
-			
+        <div style="display: contents">
 			<script>
 				{
 					__sveltekit_c7cr9z = {
@@ -42,18 +27,11 @@
 
 					const element = document.currentScript.parentElement;
 
-					const data = [null,null];
-
 					Promise.all([
 						import("/workshop/_app/immutable/entry/start.eGrCKU8s.js"),
 						import("/workshop/_app/immutable/entry/app.RKnrtHb_.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data,
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
