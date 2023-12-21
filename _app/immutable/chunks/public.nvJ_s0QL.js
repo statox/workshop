@@ -1,1 +1,0 @@
-const t="https://api.statox.fr",s="https://statox.fr",a="statox.eu.auth0.com",o="SzhqfkLRQTEpPSrJYV2V3GdzmFpcTg5P",L="https://api.statox.fr",U="https://apps.statox.fr";export{a as P,o as a,L as b,U as c,s as d,t as e};
