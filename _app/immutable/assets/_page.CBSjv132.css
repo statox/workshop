@@ -1,1 +1,0 @@
-.grid-container.svelte-5cewou{display:grid;grid-template-columns:repeat(7,1fr);gap:20px}@media (max-width: 768px){.grid-container.svelte-5cewou{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}}@media (max-width: 480px){.grid-container.svelte-5cewou{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
