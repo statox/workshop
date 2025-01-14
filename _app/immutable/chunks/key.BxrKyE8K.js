@@ -1,0 +1,1 @@
+import{k as c,n as i,l as _,c as h,h as r,f as d,p as k,d as l,j as u,U as y}from"./index-client.S3REcJgE.js";function v(f,n,t){r&&d();var e=f,s=y,a,o=c()?i:_;h(()=>{o(s,s=n())&&(a&&k(a),a=l(()=>t(e)))}),r&&(e=u)}export{v as k};
