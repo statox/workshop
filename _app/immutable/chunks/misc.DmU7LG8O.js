@@ -1,0 +1,1 @@
+import{s as u,g as a,c,i as l}from"./index-client.CflxByDC.js";function f(s){var r=c(0);return function(){return arguments.length===1?(u(r,a(r)+1),arguments[0]):(a(r),s())}}function v(s,r){var t;var e=(t=s.$$events)==null?void 0:t[r.type],n=l(e)?e.slice():e==null?[]:[e];for(var i of n)i.call(this,r)}export{v as b,f as r};

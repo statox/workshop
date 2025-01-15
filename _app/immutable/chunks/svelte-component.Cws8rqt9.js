@@ -1,0 +1,1 @@
+import{F as c,_ as s,G as i,j as r,k as h,Y as p,H as _}from"./index-client.CflxByDC.js";function m(t,f,o){r&&h();var n=t,a,e;c(()=>{a!==(a=f())&&(e&&(p(e),e=null),a&&(e=i(()=>o(n,a))))},s),r&&(n=_)}export{m as c};
