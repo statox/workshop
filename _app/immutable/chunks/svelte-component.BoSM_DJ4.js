@@ -1,0 +1,1 @@
+import{d as c,E as s,f as i,h as r,c as h,p,j as d}from"./index-client.CflbJY84.js";function u(f,t,o){r&&h();var n=f,a,e;c(()=>{a!==(a=t())&&(e&&(p(e),e=null),a&&(e=i(()=>o(n,a))))},s),r&&(n=d)}export{u as c};
