@@ -1,1 +1,0 @@
-import{E as c,ah as i,C as _,F as h,j as r,k,Y as d,G as u,H as y,U as l}from"./index-client.CflxByDC.js";function I(f,n,t){r&&k();var e=f,s=l,a,o=c()?i:_;h(()=>{o(s,s=n())&&(a&&d(a),a=u(()=>t(e)))}),r&&(e=y)}export{I as k};
