@@ -1,1 +1,0 @@
-import{B as i,_,A as c,C as h,h as r,i as d,X as k,E as u,F as y,U as l}from"./index-client.DFiFioa0.js";function I(f,n,t){r&&d();var e=f,s=l,a,o=i()?_:c;h(()=>{o(s,s=n())&&(a&&k(a),a=u(()=>t(e)))}),r&&(e=y)}export{I as k};
